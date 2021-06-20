@@ -1,0 +1,11 @@
+---
+application:
+  name: "transcriber"
+  project: "transcriber"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-transcriber"
+  routes:
+  - application_name: "transcriber"
+    paths:
+    - "/*"
